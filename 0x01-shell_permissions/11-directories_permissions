@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo chmod -R +x 11-directories_permissions
+sudo chmod -R a+x 11-directories_permissions
