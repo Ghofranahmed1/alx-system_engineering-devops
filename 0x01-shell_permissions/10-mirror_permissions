@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod --regerence=hello olleh
+chmod --regerence=olleh hello
