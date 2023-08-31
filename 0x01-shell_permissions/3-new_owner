@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo chom betty hello
+root chom betty hello
