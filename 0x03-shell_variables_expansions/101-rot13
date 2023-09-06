@@ -1,2 +1,2 @@
 #!/bin/bash
-tr {n..m} {a..m} $echo{n..z} | tr {N..M} {A..M} $echo{N..Z}
+tr `echo {a..z} | tr -d ' '` `echo {n..z} $(echo {a..m}) | tr -d ' '` | tr `echo {A..Z} | tr -d ' '` `echo {N..Z} $(echo {A..M}) | tr -d ' '`
