@@ -1,2 +1,2 @@
 #!/bin/bash
-tr {a..z} {n..z} $echo{a..m} | tr {A..Z} {N..Z} $echo{A..M}
+tr {n..m} {a..m} $echo{n..z} | tr {N..M} {A..M} $echo{N..Z}
