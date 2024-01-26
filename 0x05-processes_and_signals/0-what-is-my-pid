@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-this script print PID for this process
+# This script print PID for this process
 
 echo $$
