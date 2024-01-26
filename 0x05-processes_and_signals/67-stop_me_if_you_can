@@ -2,4 +2,4 @@
 #Bash script that stops 7-highlander process.
 #You cannot use kill or killall
 
-pkill -f beyond
+pkill -f "beyond"
